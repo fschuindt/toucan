@@ -86,7 +86,7 @@ First, check the block on `app.outputs_loop`. It:
 - Prints out the `jumper.jump` value.
 - Waits 1 second.
 
-Notice it's a `output_loop`. So this block runs in a loop.
+Notice it's a `outputs_loop`. So this block runs in a loop. Alternatively `outputs` can be used to execute just once.
 
 And this is your application. Every second, you double the number and prints it out. Great.
 
@@ -103,6 +103,10 @@ Different from the output block, this one will always run as a loop.
 
 Let's run this code:
 
+**GIF**  
+![toucan demo](https://github.com/fschuindt/toucan/raw/master/images/toucan_demo.gif?raw=true)
+
+**Asciinema**  
 [![asciicast](https://asciinema.org/a/200240.png)](https://asciinema.org/a/200240)
 
 ### Conclusion
