@@ -115,7 +115,52 @@ Toucan abstracts all your input logic and provides you pure gold Curses sugar in
 
 ## Installation
 
-TODO
+**WARNING**
+
+As this gem is facing its early days of life, I recommend you to not use it for any production environment just yet. I've published the version `0.0.1` to RubyGems.org, but I want you to mind some things:
+- Any `0.0.X` version is experimental. Things can be changed without changing the version tag itself.
+- Until the release of the version `0.1.0`, is better to clone this repository and build the gem by yourself.
+- As being experimental, many stuff can go wrong. I haven't faced any relevant issue so far, but if you do/did, please let me know by opening a GitHub issue.
+
+### Building the gem by yourself (Recommended)
+First, clone this repository and get inside of it:
+```
+$ git clone https://github.com/fschuindt/toucan.git && cd toucan
+```
+
+Build the Gem:
+```
+$ gem build toucan.gemspec
+```
+
+And install it:
+```
+$ gem install toucan_cli-0.0.1.gem
+```
+
+Now you shall be able to use it in your Ruby programs by doing:
+```ruby
+require 'toucan_cli'
+```
+
+### Using bundler (Not the best option for now)
+You can either enter in your terminal:
+```
+$ gem install toucan
+```
+
+Or, in your `Gemfile`:
+```
+gem 'toucan_cli', '~> 0.0.1'
+```
+*Then following by `$ bundle install`*
+
+So, again, you can just:
+```ruby
+require 'toucan_cli'
+```
+
+And it may work.
 
 ## Basic Usage
 
