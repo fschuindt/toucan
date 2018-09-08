@@ -103,7 +103,7 @@ Different from the output block, this one will always run as a loop.
 
 Let's run this code:
 
-[![asciicast](https://asciinema.org/a/p3R2RQrH3NSDX5aFg7pGoGcGO.png)](https://asciinema.org/a/p3R2RQrH3NSDX5aFg7pGoGcGO)
+[![asciicast](https://asciinema.org/a/200240.png)](https://asciinema.org/a/200240)
 
 ### Conclusion
 
