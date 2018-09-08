@@ -146,7 +146,7 @@ require 'toucan_cli'
 ### Using bundler (Not the best option for now)
 You can either enter in your terminal:
 ```
-$ gem install toucan
+$ gem install toucan_cli
 ```
 
 Or, in your `Gemfile`:
