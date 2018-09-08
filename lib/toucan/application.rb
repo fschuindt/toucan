@@ -40,10 +40,6 @@ module Toucan
       refresh
     end
 
-    # TODO
-    def alert
-    end
-
     def print(string)
       @screen.owin.addstr(string)
       refresh
