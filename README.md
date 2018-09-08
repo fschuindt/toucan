@@ -1,8 +1,8 @@
-# ![toucan](https://github.com/fschuindt/toucan/images/raw/master/toucan_small.png?raw=true) Ruby Toucan
+# ![toucan](https://github.com/fschuindt/toucan/raw/master/images/toucan_small.png?raw=true) Ruby Toucan
 *A Ruby framework to craft small yet amazing CLI applications.  
 Powered by [Curses](https://github.com/ruby/curses).*
 
-![toucan layout](https://github.com/fschuindt/toucan/images/raw/master/ToucanLayout.png?raw=true)
+![toucan layout](https://github.com/fschuindt/toucan/raw/master/images/ToucanLayout.png?raw=true)
 
 ## License
 
