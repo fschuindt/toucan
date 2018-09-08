@@ -1,4 +1,4 @@
-# ![toucan](https://s15.postimg.cc/y4e5c1qq3/toucan_small.png) Ruby Toucan
+# ![toucan](https://github.com/fschuindt/toucan/raw/master/toucan_small.png?raw=true) Ruby Toucan
 *A Ruby framework to craft small yet amazing CLI applications.  
 Powered by [Curses](https://github.com/ruby/curses).*
 
