@@ -1,4 +1,4 @@
-require 'toucan'
+require 'toucan_cli'
 
 class Jumper
   attr_accessor :jump
@@ -12,7 +12,7 @@ class Jumper
   end
 end
 
-app = Toucan::Application.new
+app = ToucanCLI::Application.new
 jumper = Jumper.new
 
 app.inputs do |input|

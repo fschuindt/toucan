@@ -1,4 +1,4 @@
-module Toucan
+module ToucanCLI
   LIB_PATH = File.expand_path('../../', __FILE__)
 
   class Configuration

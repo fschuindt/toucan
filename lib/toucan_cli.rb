@@ -1,12 +1,12 @@
 require 'curses'
 require 'thread'
 
-require 'toucan/application'
-require 'toucan/configuration'
-require 'toucan/screen'
-require 'toucan/version'
+require 'toucan_cli/application'
+require 'toucan_cli/configuration'
+require 'toucan_cli/screen'
+require 'toucan_cli/version'
 
-module Toucan
+module ToucanCLI
   class << self
     attr_writer :configuration
   end

@@ -1,4 +1,4 @@
-module Toucan
+module ToucanCLI
   class Screen
     attr_accessor :iqueue, :iwin, :owin
 

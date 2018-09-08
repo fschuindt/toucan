@@ -1,4 +1,4 @@
-module Toucan
+module ToucanCLI
   class Application
     def initialize
       @screen = Screen.new

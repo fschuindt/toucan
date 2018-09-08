@@ -1,4 +1,4 @@
-# ![toucan](https://github.com/fschuindt/toucan/raw/master/images/toucan_small.png?raw=true) Ruby Toucan
+# ![toucan](https://github.com/fschuindt/toucan/raw/master/images/toucan_small.png?raw=true) Ruby Toucan CLI
 *A Ruby framework to craft small yet amazing CLI applications.  
 Powered by [Curses](https://github.com/ruby/curses).*
 
@@ -13,7 +13,7 @@ Personally, I find the synchronous IO the most annoying limitation of common CLI
 
 And last but not least, ASCII animations. Try to grab any ASCII art and make it "walk" across the screen. Your terminal will be filled with older frames and that sucks. To clear a terminal window all you do is print out a bunch of `\n` characters, which is far from being practical.
 
-Toucan tries to present a quick solution for those two problems.
+Toucan CLI tries to present a quick solution for those two problems.
 
 ## Introduction
 
@@ -25,11 +25,11 @@ The input window is controlled by a parallel thread which has its queue filled w
 
 The output window is your application per-say. It runs into the main thread and you can do whatever you want here, regardless if the user is typing anything.
 
-Here is the basic shape for a Toucan application:
+Here is the basic shape for a Toucan CLI application:
 ```ruby
-require 'toucan'
+require 'toucan_cli'
 
-app = Toucan::Application.new
+app = ToucanCLI::Application.new
 
 app.inputs do |input|
   # Deals with input here.
@@ -59,9 +59,9 @@ So, when initialized it sets `@jump = 1`. When the method `:double` is called, i
 
 Let's use it in our first Toucan program:
 ```ruby
-require 'toucan'
+require 'toucan_cli'
 
-app = Toucan::Application.new
+app = ToucanCLI::Application.new
 jumper = Jumper.new
 
 app.inputs do |input|

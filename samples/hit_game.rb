@@ -1,4 +1,4 @@
-require 'toucan'
+require 'toucan_cli'
 
 class Hit10Game
   def initialize
@@ -19,7 +19,7 @@ class Hit10Game
 end
 
 hit_game = Hit10Game.new
-app = Toucan::Application.new
+app = ToucanCLI::Application.new
 
 app.inputs do |input|
   if input == 'hit'
